@@ -23,7 +23,7 @@ public class RentalBikesManager {
         return rentalBikeRepo.findById(id);
     }
 
-    public Iterable<Bikes> findAll(int id) {
+    public Iterable<Bikes> findAll() {
         return rentalBikeRepo.findAll();
     }
 

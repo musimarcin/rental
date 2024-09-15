@@ -10,7 +10,7 @@ import jakarta.persistence.Id;
 public class Cars {
 
 
-    @GeneratedValue(strategy = GenerationType.IDENTITY);
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Id
     private int id;
     private String brand;
